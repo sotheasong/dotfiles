@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "gruvbox.nvim": {
+      "rev": "c14c475585494c592ef48064ad338424f15f8bad",
+      "src": "https://gitlab.com/motaz-shokry/gruvbox.nvim"
+    }
+  }
+}

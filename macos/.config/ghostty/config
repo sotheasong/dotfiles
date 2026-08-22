@@ -1,0 +1,20 @@
+# Ghostty config
+# (Ghostty only reads a file named exactly "config" — not config.ghostty)
+
+# Ayu Dark — theme file lives in ~/.config/ghostty/themes/ayu-dark
+theme = ayu-dark
+shell-integration-features = true
+
+# Margins / padding (Kitty used window_padding_width 25)
+window-padding-x = 25
+window-padding-y = 25
+window-padding-balance = true
+# Fill the padding with the adjacent cells' background instead of the
+# transparent default — kills the translucent "border" around nvim/TUIs
+# while leaving the shell's transparent padding intact.
+window-padding-color = extend
+
+# Transparency + blur (Kitty used opacity 0.85, blur 32)
+# Ghostty's blur scale differs from Kitty's; 20 reads as a strong, similar blur.
+background-opacity = 0.85
+background-blur = 20

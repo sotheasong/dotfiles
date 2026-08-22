@@ -1,0 +1,10 @@
+# --- Focus floating windows directionally ---
+# Uses a helper because yabai's built-in `--focus <dir>` only works on
+# managed (tiled) windows, not floating ones.
+shift + alt - h : ~/.config/yabai/focus-direction.sh west
+shift + alt - j : ~/.config/yabai/focus-direction.sh south
+shift + alt - k : ~/.config/yabai/focus-direction.sh north
+shift + alt - l : ~/.config/yabai/focus-direction.sh east
+
+# --- Fullscreen zoom for the focused window ---
+alt - f : yabai -m window --toggle zoom-fullscreen
